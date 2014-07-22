@@ -12,7 +12,7 @@ L2 "name": "ex4ect",
 ↓
 L2 "name": "myappname",
 
-$ vim .bin/www
+$ vim bin/www
 
 L2 var debug = require('debug')('ex4ect');
 ↓
