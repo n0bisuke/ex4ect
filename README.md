@@ -6,22 +6,9 @@
 ```
 $ git clone git@github.com:n0bisuke/ex4ect.git
 $ cd ex4ect
-
-$ vim package.json
-L2 "name": "ex4ect",
-↓
-L2 "name": "myappname",
-
-$ vim bin/www
-
-L2 var debug = require('debug')('ex4ect');
-↓
-L2 var debug = require('debug')('myappname');
-
-$ npm install
-
-$ DEBUG=myappname ./bin/www
-  myappname Express server listening on port 4444 +0ms
+$ npm i
+$ DEBUG=myapp ./bin/www
+  myapp Express server listening on port 4444 +0ms
 ```
 
 ### access
